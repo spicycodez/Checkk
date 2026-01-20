@@ -6,7 +6,7 @@ load_dotenv()
 class Config:
     def __init__(self):
         self.API_ID = int(getenv("API_ID", 24208695))
-        self.API_HASH = getenv("API_HASH", fa96a7eb2dffe7f4cc8ba1399b68d24d)
+        self.API_HASH = getenv("API_HASH", "fa96a7eb2dffe7f4cc8ba1399b68d24d")
 
         self.BOT_TOKEN = getenv("BOT_TOKEN", "7850675931:AAFVjBhaO9D2ZNdRZjbATkAsCqZAdvD2hNs")
         self.MONGO_URL = getenv("MONGO_URL", "mongodb+srv://LUSTIFYXMUSIC:Abhi77394@lustifymusic.evxnqby.mongodb.net/?retryWrites=true&w=majority&appName=LUSTIFYMUSIC")
